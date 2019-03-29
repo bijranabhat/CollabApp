@@ -25,8 +25,15 @@ gem 'sass-rails', '~> 5.0'
 # Bootstrap JavaScript is dependent on jQuery library. Need to use jQuery with Rails
 gem 'jquery-rails'
 
-# Fro Authentication system we are going to use the Devise gem instead of building our own authentication system
+# For Authentication system we are going to use the Devise gem instead of building our own authentication system
 gem 'devise'
+gem 'hpricot'
+gem 'ruby_parser'
+
+#  To set up devise, we need to start postgres server: after rails generate devise user is done, type sudo service postgresql start
+#  To access and run queries on to Postgres database, type sudo sudo -u postgres sql
+#  Need to creat a database template 1 with TEMPLATE = template0
+#  \quit to go back to command line from postgre command line
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
