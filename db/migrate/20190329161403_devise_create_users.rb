@@ -13,6 +13,9 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
 
       ## Rememberable
       t.datetime :remember_created_at
+      
+      ## Adding Extra Column in the users table of database for sign up
+      t.string :name,                 null: false, default: ""
 
       ## Trackable
       # t.integer  :sign_in_count, default: 0, null: false
