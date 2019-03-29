@@ -35,6 +35,11 @@ gem 'ruby_parser'
 #  Need to creat a database template 1 with TEMPLATE = template0
 #  \quit to go back to command line from postgre command line
 
+# after updatating the app/views/devise/sessions/new.html.erb with bootstrap components
+# In order to use Bootstrap Forms in Rails, we've to add a 'bootstrap_form' gem to the Gem file
+
+gem 'bootstrap_form'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
