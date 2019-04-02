@@ -54,6 +54,9 @@ gem 'capybara', '~> 3.0.0'
 gem 'poltergeist' #need to install phantomjs for this to work properly npm install phantomjs
 gem 'database_cleaner'
 
+#added for testing features
+gem 'phantomjs', :require => 'phantomjs/poltergeist'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
