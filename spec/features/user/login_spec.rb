@@ -1,4 +1,6 @@
 require 'rails_helper'
+##added for testing features in gem file, o/w gives error
+#gem 'phantomjs', :require => 'phantomjs/poltergeist'
 
 RSpec.feature "Login", :type => :feature do
     let(:user) { create(:user) }
