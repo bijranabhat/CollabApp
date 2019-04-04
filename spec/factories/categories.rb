@@ -1,3 +1,5 @@
+require 'factory_bot'
+
 FactoryBot.define do
   #Created a category factory inside the factories directory
   factory :category do

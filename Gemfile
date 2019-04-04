@@ -57,6 +57,9 @@ gem 'database_cleaner'
 #added for testing features
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
 
+#added for seeding dummy data
+gem 'faker'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
