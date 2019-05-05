@@ -6,4 +6,10 @@ class User < ApplicationRecord
   has_many :posts, dependent: :destroy
   # The dependent: :destroy argument says, when a user gets deleted,
   # all posts what the user has created will be deleted too.
+  
+  has_many :private_messages, class_name: 'Private::Message'
+	has_many  :private_conversations, 
+	          foreign_key: :sender_id, 
+	          class_name: 'Private::Conversation'
+	          
 end
