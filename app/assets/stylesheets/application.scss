@@ -27,7 +27,32 @@
  @import "partials/*";
  @import "partials/layout/*";
  
+ 
  // Media queries for a responsive design
  @import "responsive/*";
 
+.send-message-to-user {
+  background-color: $navbarColor;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  &:hover {
+    background-color: black;
+    color: white;
+    }
+}
+    
+.contact-user {
+  text-align: center;
+  color: red;
+}
+
+.contacted-user{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: $navbarColor;
+    color: white;
+}
  

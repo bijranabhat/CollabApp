@@ -30,6 +30,8 @@ gem 'devise'
 gem 'hpricot'
 gem 'ruby_parser'
 
+gem 'gon'
+
 #  To set up devise, we need to start postgres server: after rails generate devise user is done, type sudo service postgresql start
 #  To access and run queries on to Postgres database, type sudo sudo -u postgres sql
 #  Need to creat a database template 1 with TEMPLATE = template0
