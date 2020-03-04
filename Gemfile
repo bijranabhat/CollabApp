@@ -13,7 +13,7 @@ gem 'rails', '~> 5.1.6'
 gem 'pg', '>= 0.18', '< 2.0'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 
 # For the navigation bar and the responsive grid system we’re going to use the Bootstrap library.
 #In order to use this library we have to install the  bootstrap-sass gem.
